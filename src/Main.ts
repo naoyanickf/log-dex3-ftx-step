@@ -18,7 +18,7 @@ const getFtxPrice = ():number => {
 
 const calcMidPrice = (bid: number, ask: number):number => {
   const midPrice = (bid + ask) / 2;
-  return Math.round(midPrice * 100) / 100;
+  return Math.round(midPrice * 1000) / 1000;
 }
 
 const main = () => {
